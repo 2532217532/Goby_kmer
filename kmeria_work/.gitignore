@@ -1,0 +1,17 @@
+# 原始基因组数据（太大，不入 git）
+*.fna
+*.fna.gz
+*.fna.fai
+
+# k-mer 计数结果（二进制，~228GB）
+01_count/*.bin
+
+# k-mer 矩阵（二进制）
+02_kctm/*.bin
+02_kctm/kmer_matrix*.bin
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*~
